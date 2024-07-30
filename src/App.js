@@ -146,7 +146,7 @@ function App() {
                   </span>
                 </div>
                 <a
-                  href={bonusList[1].data.url}
+                  href={`https://link.redirect-links.xyz/redirect/${bonusList[0].data.name}`}
                   className="mt-auto bg-red-600 text-white px-6 py-2 rounded-full"
                 >
                   GİRİŞ YAP
@@ -191,7 +191,7 @@ function App() {
                   key={index}
                   className="bg-[#030712] p-4 text-white rounded-lg"
                 >
-                  <a href={site.siteUrl} className="text-left">
+                  <a href={`https://link.redirect-links.xyz/redirect/${site.siteName}`} className="text-left">
                     <img src={site.data.logo} alt="logo" />
                     <p>{site.data.ornekdata}</p>
                     <p className="text-gray-500">SİZE ÖZEL PROMOSYONLAR</p>
@@ -209,7 +209,7 @@ function App() {
               <>
                 <div className="flex flex-col items-center mt-6 mb-8">
                   <img
-                    src={bonusList[1].data.logo}
+                    src={`https://link.redirect-links.xyz/redirect/${bonusList[1].data.name}`}
                     alt="Logo"
                     className="h-10 mb-4"
                   />
@@ -233,7 +233,7 @@ function App() {
                   </span>
                 </div>
                 <a
-                  href={bonusList[1].data.url}
+                  href={`https://link.redirect-links.xyz/redirect/${bonusList[0].data.name}`}
                   className="mt-auto bg-red-600 text-white px-6 py-2 rounded-full"
                 >
                   GİRİŞ YAP
